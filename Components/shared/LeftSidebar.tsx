@@ -4,7 +4,7 @@ import { OrganizationSwitcher, SignOutButton, SignedIn, useAuth } from "@clerk/n
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from 'next/navigation';
-import {sidebarLinks} from "@/Constants/"
+import {sidebarLinks} from "@/Constants/index.js"
 function LeftSidebar() {
 
     const router = useRouter();
