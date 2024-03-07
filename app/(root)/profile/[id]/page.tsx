@@ -2,7 +2,7 @@ import PostThread from "@/Components/forms/PostThread";
 import ProfileHeader from "@/Components/shared/ProfileHeader";
 import ThreadsTab from "@/Components/shared/ThreadsTab";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs";
-import { profileTabs } from "@/Constants/index.js";
+import { profileTabs } from "@/Constants";
 import { fetchUser } from "@/lib/actions/user.actions";
 import { currentUser } from "@clerk/nextjs";
 import Image from "next/image";
