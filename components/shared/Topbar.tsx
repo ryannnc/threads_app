@@ -38,7 +38,6 @@ function Topbar(){
                     }
                 }}
                 />
-                <UserButton/>
             </div>
         </nav>
     )
