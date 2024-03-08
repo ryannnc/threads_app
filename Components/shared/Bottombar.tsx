@@ -1,7 +1,7 @@
 "use client"
 
 import { OrganizationSwitcher, SignOutButton, SignedIn } from "@clerk/nextjs";
-import { sidebarLinks } from '@/Constants'
+import { sidebarLinks } from '@/constants'
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from 'next/navigation';

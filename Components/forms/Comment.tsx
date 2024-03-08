@@ -12,7 +12,7 @@ import {
     FormField,
     FormItem,
     FormLabel,
-} from "@/Components/ui/form";
+} from "@/components/ui/form";
 
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";

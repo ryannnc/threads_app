@@ -1,9 +1,9 @@
-import UserCard from "@/Components/cards/UserCard";
-import PostThread from "@/Components/forms/PostThread";
-import ProfileHeader from "@/Components/shared/ProfileHeader";
-import ThreadsTab from "@/Components/shared/ThreadsTab";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs";
-import { profileTabs } from "@/Constants";
+import UserCard from "@/components/cards/UserCard";
+import PostThread from "@/components/forms/PostThread";
+import ProfileHeader from "@/components/shared/ProfileHeader";
+import ThreadsTab from "@/components/shared/ThreadsTab";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { profileTabs } from "@/constants";
 import { fetchUser, fetchUsers, getActivity } from "@/lib/actions/user.actions";
 import { currentUser } from "@clerk/nextjs";
 import Image from "next/image";

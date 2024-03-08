@@ -1,4 +1,4 @@
-import ThreadCard from "@/Components/cards/ThreadCard";
+import ThreadCard from "@/components/cards/ThreadCard";
 import { fetchPosts } from "@/lib/actions/thread.actions";
 import Thread from "@/lib/models/thread.model";
 import { currentUser } from "@clerk/nextjs";
