@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts",],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "@/components/forms/AccountProfile", "@/components/forms/PostThread", "@/components/shared/Topbar","@/components/shared/LeftSidebar","@/components/shared/Bottombar" ],
   "exclude": ["node_modules"]
 }
